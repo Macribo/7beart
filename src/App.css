@@ -1,11 +1,15 @@
-.App {
-  text-align: center;
+
+body{
+  background-image:url('./images/squares-are-everywhere.gif');
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App {
+  text-align: center;
+
+
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
