@@ -4,7 +4,7 @@ import {Easca} from './components/easca-keyboard/easca-keyboard'
 function App() {
   return (
     <div className="App">
-<Easca />
+<Easca/>
     </div>
   );
 }

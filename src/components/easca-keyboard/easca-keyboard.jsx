@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import './easca-keyboard.css';
 // import Container from 'react-bootstrap/Container';
 // import Form from 'react-bootstrap/Form';
 // import Button from 'react-bootstrap/Button';
@@ -15,32 +15,32 @@ export class Easca extends React.Component {
 	render() {
 				  return (
 			<div>
-			  <div id="fada-mode" className>
+			  <div id="fada-mode" >
 				<div className="btn-group btn-group-lg" id="e-line" role="group" aria-label="...">					
-				  <button type="button" id className="btn-right btn btn-outline-dark">é</button>
-				  <button type="button" id className="btn-left btn btn-outline-dark">ꞃ</button>
-				  <button type="button" id className="btn-right btn btn-outline-dark">ṫ</button>
-				  <button type="button" id className="btn btn-left btn-outline-dark">ú</button>
-				  <button type="button" id className="btn-right btn btn-outline-dark">í</button>
-				  <button type="button" id className="btn btn-left btn-outline-dark">ó</button>
-				  <button type="button" id className="btn-right btn btn-outline-dark">ṗ</button>
+				  <button type="button"  className="btn-right btn btn-outline-dark">é</button>
+				  <button type="button"  className="btn-left btn btn-outline-dark">ꞃ</button>
+				  <button type="button"  className="btn-right btn btn-outline-dark">ṫ</button>
+				  <button type="button"  className="btn btn-left btn-outline-dark">ú</button>
+				  <button type="button"  className="btn-right btn btn-outline-dark">í</button>
+				  <button type="button"  className="btn btn-left btn-outline-dark">ó</button>
+				  <button type="button"  className="btn-right btn btn-outline-dark">ṗ</button>
 				</div>
 				<div className="btn-group btn-group-lg" id="a-line" role="group" aria-label="...">					
-				  <button type="button" id className="btn-left btn btn-outline-dark">á</button>
-				  <button type="button" id className="btn-right btn btn-outline-dark">ṡ</button>
-				  <button type="button" id className="btn-left btn btn-outline-dark">ḋ</button>
-				  <button type="button" id className="btn-right btn btn-outline-dark">ḟ</button>
-				  <button type="button" id className="btn-left btn btn-outline-dark">ġ</button>
-				  <button type="button" id className="btn-right btn btn-outline-dark" />
-				  <button type="button" id className="btn-left btn btn-outline-dark" />
+				  <button type="button" className="btn-left btn btn-outline-dark">á</button>
+				  <button type="button" className="btn-right btn btn-outline-dark">ṡ</button>
+				  <button type="button"  className="btn-left btn btn-outline-dark">ḋ</button>
+				  <button type="button"  className="btn-right btn btn-outline-dark">ḟ</button>
+				  <button type="button"  className="btn-left btn btn-outline-dark">ġ</button>
+				  <button type="button"  className="btn-right btn btn-outline-dark" />
+				  <button type="button"  className="btn-left btn btn-outline-dark" />
 				</div>
 				<div className="btn-group btn-group-lg" id="c-line" role="group" aria-label="...">					
-				  <button type="button" id className="btn-right btn btn-outline-dark">ċ</button>
-				  <button type="button" id className="btn-left btn btn-outline-dark">ḃ</button>
-				  <button type="button" id className="btn-right btn btn-outline-dark" />			<button type="button" id className="btn-left btn btn-outline-dark">ṁ</button>
-				  <button type="button" id className="btn-right btn btn-outline-dark" />
-				  <button type="button" id className="btn-left btn btn-outline-dark" />
-				  <button type="button" id className="btn-right btn btn-outline-dark">7</button>
+				  <button type="button"  className="btn-right btn btn-outline-dark">ċ</button>
+				  <button type="button"  className="btn-left btn btn-outline-dark">ḃ</button>
+				  <button type="button"  className="btn-right btn btn-outline-dark" />			<button type="button"  className="btn-left btn btn-outline-dark">ṁ</button>
+				  <button type="button"  className="btn-right btn btn-outline-dark" />
+				  <button type="button"  className="btn-left btn btn-outline-dark" />
+				  <button type="button"  className="btn-right btn btn-outline-dark">7</button>
 				</div>
 				<div className="btn-group btn-group-lg" id="shift-line" role="group" aria-label="...">					
 				  <button type="button" id="undo" className="btn-right btn btn-outline-dark">
@@ -53,7 +53,7 @@ export class Easca extends React.Component {
 				  <button type="button" className="btn-right btn btn-outline-dark"><i className="fa fa-arrow-right" /></button>
 				</div>
 			  </div>
-			  <div id="keyboard-container" className>
+			  <div id="keyboard-container">
 				<div className="btn-group btn-group-lg" id="e-line" role="group" aria-label="...">					
 				  <button type="button" id="e" className="btn btn-right btn-outline-dark">e</button>
 				  <button type="button" id="r" className="btn-left btn btn-outline-dark">r</button>
@@ -93,33 +93,33 @@ export class Easca extends React.Component {
 				  <button type="button" className="btn-left btn btn-outline-dark"><i className="fa fa-arrow-right" /></button>
 				</div>
 			  </div>
-			  <div id="caps-keyboard-container" className>
+			  <div id="caps-keyboard-container" >
 				<div className="btn-group btn-group-lg" id="e-line" role="group" aria-label="...">					
-				  <button type="button" id className="btn-right btn btn-outline-dark">E</button>
-				  <button type="button" id className="btn-left btn btn-outline-dark">R</button>
-				  <button type="button" id className="btn-right btn btn-outline-dark">T</button>
-				  <button type="button" id className="btn-left btn btn-outline-dark">B</button>
-				  <button type="button" id className="btn-right btn btn-outline-dark">I</button>
-				  <button type="button" id className="btn-left btn btn-outline-dark">O</button>
-				  <button type="button" id className="btn-right btn btn-outline-dark">P</button>
+				  <button type="button" className="btn-right btn btn-outline-dark">E</button>
+				  <button type="button" className="btn-left btn btn-outline-dark">R</button>
+				  <button type="button" className="btn-right btn btn-outline-dark">T</button>
+				  <button type="button" className="btn-left btn btn-outline-dark">B</button>
+				  <button type="button" className="btn-right btn btn-outline-dark">I</button>
+				  <button type="button" className="btn-left btn btn-outline-dark">O</button>
+				  <button type="button" className="btn-right btn btn-outline-dark">P</button>
 				</div>
 				<div className="btn-group btn-group-lg" id="a-line" role="group" aria-label="...">					
-				  <button type="button" id className="btn-left btn btn-outline-dark">A</button>
-				  <button type="button" id className="btn-right btn btn-outline-dark">S</button>
-				  <button type="button" id className="btn-left btn btn-outline-dark">D</button>
-				  <button type="button" id className="btn-right btn btn-outline-dark">F</button>
-				  <button type="button" id className="btn-left btn btn-outline-dark">G</button>
-				  <button type="button" id className="btn-right btn btn-outline-dark">H</button>
-				  <button type="button" id className="btn-left btn btn-outline-dark">L</button>
+				  <button type="button"  className="btn-left btn btn-outline-dark">A</button>
+				  <button type="button"  className="btn-right btn btn-outline-dark">S</button>
+				  <button type="button"  className="btn-left btn btn-outline-dark">D</button>
+				  <button type="button"  className="btn-right btn btn-outline-dark">F</button>
+				  <button type="button"  className="btn-left btn btn-outline-dark">G</button>
+				  <button type="button"  className="btn-right btn btn-outline-dark">H</button>
+				  <button type="button"  className="btn-left btn btn-outline-dark">L</button>
 				</div>
 				<div className="btn-group btn-group-lg" id="c-line" role="group" aria-label="...">					
-				  <button type="button" id className="btn-right btn btn-outline-dark">C</button>
-				  <button type="button" id className="btn-left btn btn-outline-dark">B</button>
-				  <button type="button" id className="btn-right btn btn-outline-dark">N</button>
-				  <button type="button" id className="btn-left btn btn-outline-dark">M</button>
-				  <button type="button" id className="btn-right btn btn-outline-dark" />
-				  <button type="button" id className="btn-left btn btn-outline-dark" />
-				  <button type="button" id className="btn-right btn btn-outline-dark" />
+				  <button type="button"  className="btn-right btn btn-outline-dark">C</button>
+				  <button type="button"  className="btn-left btn btn-outline-dark">B</button>
+				  <button type="button"  className="btn-right btn btn-outline-dark">N</button>
+				  <button type="button"  className="btn-left btn btn-outline-dark">M</button>
+				  <button type="button"  className="btn-right btn btn-outline-dark" />
+				  <button type="button"  className="btn-left btn btn-outline-dark" />
+				  <button type="button"  className="btn-right btn btn-outline-dark" />
 				</div>
 				<div className="btn-group btn-group-lg" id="shift-line" role="group" aria-label="...">					
 				  <button type="button" id="undo" className="btn-right btn btn-outline-dark">
@@ -133,7 +133,7 @@ export class Easca extends React.Component {
 				  <button type="button" className="btn-right  btn btn-outline-dark"><i className="fa fa-arrow-right" /></button>
 				</div>
 			  </div>
-			  <div id className>
+			  <div >
 				<div className="btn-group btn-group-lg" id="j-line" role="group" aria-label="...">
 				  {/* 								
 										  <button type="button" class="btn-right-logo btn btn-outline-dark">e</button>
