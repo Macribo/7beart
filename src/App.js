@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
-import {Easca} from './components/easca-keyboard/easca-keyboard'
+import {Easca0} from './components/easca-keyboard/easca-keyboard-0'
+import {Peasca0} from './components/peasca/Peasca-0'
 function App() {
   return (
-    <div className="App">
-<Easca/>
+    <div className="App container .center" >
+      <Peasca0/>
+      <Easca0/>
     </div>
   );
 }
